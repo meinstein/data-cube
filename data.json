@@ -1,0 +1,482 @@
+var data = [
+    {
+        "name ": "A",
+        "sales": "24"
+    },
+    {
+        "name ": "A",
+        "sales": "18"
+    },
+    {
+        "name ": "A",
+        "sales": "22"
+    },
+    {
+        "name ": "A",
+        "sales": "14"
+    },
+    {
+        "name ": "A",
+        "sales": "20"
+    },
+    {
+        "name ": "A",
+        "sales": "11"
+    },
+    {
+        "name ": "A",
+        "sales": "22"
+    },
+    {
+        "name ": "A",
+        "sales": "23"
+    },
+    {
+        "name ": "A",
+        "sales": "29"
+    },
+    {
+        "name ": "A",
+        "sales": "12"
+    },
+    {
+        "name ": "A",
+        "sales": "14"
+    },
+    {
+        "name ": "A",
+        "sales": "50"
+    },
+    {
+        "name ": "A",
+        "sales": "58"
+    },
+    {
+        "name ": "A",
+        "sales": "45"
+    },
+    {
+        "name ": "A",
+        "sales": "43"
+    },
+    {
+        "name ": "A",
+        "sales": "32"
+    },
+    {
+        "name ": "A",
+        "sales": "55"
+    },
+    {
+        "name ": "A",
+        "sales": "49"
+    },
+    {
+        "name ": "A",
+        "sales": "37"
+    },
+    {
+        "name ": "A",
+        "sales": "31"
+    },
+    {
+        "name ": "A",
+        "sales": "37"
+    },
+    {
+        "name ": "A",
+        "sales": "43"
+    },
+    {
+        "name ": "A",
+        "sales": "33"
+    },
+    {
+        "name ": "A",
+        "sales": "81"
+    },
+    {
+        "name ": "A",
+        "sales": "80"
+    },
+    {
+        "name ": "A",
+        "sales": "65"
+    },
+    {
+        "name ": "A",
+        "sales": "75"
+    },
+    {
+        "name ": "A",
+        "sales": "79"
+    },
+    {
+        "name ": "A",
+        "sales": "86"
+    },
+    {
+        "name ": "A",
+        "sales": "87"
+    },
+    {
+        "name ": "A",
+        "sales": "73"
+    },
+    {
+        "name ": "A",
+        "sales": "68"
+    },
+    {
+        "name ": "A",
+        "sales": "68"
+    },
+    {
+        "name ": "A",
+        "sales": "61"
+    },
+    {
+        "name ": "A",
+        "sales": "84"
+    },
+    {
+        "name ": "A",
+        "sales": "93"
+    },
+    {
+        "name ": "A",
+        "sales": "105"
+    },
+    {
+        "name ": "A",
+        "sales": "119"
+    },
+    {
+        "name ": "A",
+        "sales": "97"
+    },
+    {
+        "name ": "A",
+        "sales": "104"
+    },
+    {
+        "name ": "A",
+        "sales": "94"
+    },
+    {
+        "name ": "A",
+        "sales": "117"
+    },
+    {
+        "name ": "A",
+        "sales": "114"
+    },
+    {
+        "name ": "A",
+        "sales": "106"
+    },
+    {
+        "name ": "A",
+        "sales": "110"
+    },
+    {
+        "name ": "A",
+        "sales": "111"
+    },
+    {
+        "name ": "A",
+        "sales": "113"
+    },
+    {
+        "name ": "A",
+        "sales": "138"
+    },
+    {
+        "name ": "A",
+        "sales": "134"
+    },
+    {
+        "name ": "A",
+        "sales": "139"
+    },
+    {
+        "name ": "A",
+        "sales": "122"
+    },
+    {
+        "name ": "A",
+        "sales": "149"
+    },
+    {
+        "name ": "A",
+        "sales": "130"
+    },
+    {
+        "name ": "A",
+        "sales": "147"
+    },
+    {
+        "name ": "A",
+        "sales": "124"
+    },
+    {
+        "name ": "A",
+        "sales": "135"
+    },
+    {
+        "name ": "A",
+        "sales": "150"
+    },
+    {
+        "name ": "A",
+        "sales": "132"
+    },
+    {
+        "name ": "A",
+        "sales": "127"
+    },
+    {
+        "name ": "A",
+        "sales": "170"
+    },
+    {
+        "name ": "A",
+        "sales": "174"
+    },
+    {
+        "name ": "A",
+        "sales": "158"
+    },
+    {
+        "name ": "A",
+        "sales": "171"
+    },
+    {
+        "name ": "A",
+        "sales": "170"
+    },
+    {
+        "name ": "A",
+        "sales": "157"
+    },
+    {
+        "name ": "A",
+        "sales": "152"
+    },
+    {
+        "name ": "A",
+        "sales": "163"
+    },
+    {
+        "name ": "A",
+        "sales": "165"
+    },
+    {
+        "name ": "A",
+        "sales": "177"
+    },
+    {
+        "name ": "A",
+        "sales": "180"
+    },
+    {
+        "name ": "A",
+        "sales": "172"
+    },
+    {
+        "name ": "A",
+        "sales": "192"
+    },
+    {
+        "name ": "A",
+        "sales": "190"
+    },
+    {
+        "name ": "A",
+        "sales": "194"
+    },
+    {
+        "name ": "A",
+        "sales": "185"
+    },
+    {
+        "name ": "A",
+        "sales": "185"
+    },
+    {
+        "name ": "A",
+        "sales": "197"
+    },
+    {
+        "name ": "A",
+        "sales": "203"
+    },
+    {
+        "name ": "A",
+        "sales": "199"
+    },
+    {
+        "name ": "A",
+        "sales": "209"
+    },
+    {
+        "name ": "A",
+        "sales": "200"
+    },
+    {
+        "name ": "A",
+        "sales": "181"
+    },
+    {
+        "name ": "A",
+        "sales": "207"
+    },
+    {
+        "name ": "A",
+        "sales": "215"
+    },
+    {
+        "name ": "A",
+        "sales": "231"
+    },
+    {
+        "name ": "A",
+        "sales": "224"
+    },
+    {
+        "name ": "A",
+        "sales": "214"
+    },
+    {
+        "name ": "A",
+        "sales": "215"
+    },
+    {
+        "name ": "A",
+        "sales": "226"
+    },
+    {
+        "name ": "A",
+        "sales": "228"
+    },
+    {
+        "name ": "A",
+        "sales": "232"
+    },
+    {
+        "name ": "A",
+        "sales": "222"
+    },
+    {
+        "name ": "A",
+        "sales": "240"
+    },
+    {
+        "name ": "A",
+        "sales": "234"
+    },
+    {
+        "name ": "A",
+        "sales": "234"
+    },
+    {
+        "name ": "A",
+        "sales": "258"
+    },
+    {
+        "name ": "A",
+        "sales": "256"
+    },
+    {
+        "name ": "A",
+        "sales": "270"
+    },
+    {
+        "name ": "A",
+        "sales": "269"
+    },
+    {
+        "name ": "A",
+        "sales": "266"
+    },
+    {
+        "name ": "A",
+        "sales": "257"
+    },
+    {
+        "name ": "A",
+        "sales": "256"
+    },
+    {
+        "name ": "A",
+        "sales": "255"
+    },
+    {
+        "name ": "A",
+        "sales": "243"
+    },
+    {
+        "name ": "A",
+        "sales": "254"
+    },
+    {
+        "name ": "A",
+        "sales": "254"
+    },
+    {
+        "name ": "A",
+        "sales": "286"
+    },
+    {
+        "name ": "A",
+        "sales": "285"
+    },
+    {
+        "name ": "A",
+        "sales": "282"
+    },
+    {
+        "name ": "A",
+        "sales": "287"
+    },
+    {
+        "name ": "A",
+        "sales": "288"
+    },
+    {
+        "name ": "A",
+        "sales": "279"
+    },
+    {
+        "name ": "A",
+        "sales": "279"
+    },
+    {
+        "name ": "A",
+        "sales": "288"
+    },
+    {
+        "name ": "A",
+        "sales": "288"
+    },
+    {
+        "name ": "A",
+        "sales": "271"
+    },
+    {
+        "name ": "A",
+        "sales": "276"
+    },
+    {
+        "name ": "A",
+        "sales": "287"
+    },
+    {
+        "name ": "A",
+        "sales": "274"
+    },
+    {
+        "name ": "A",
+        "sales": "273"
+    }
+]
